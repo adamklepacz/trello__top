@@ -5,7 +5,7 @@ Below you will find some information on how to perform common tasks.<br>
 ## Table of Contents
 
 ## Setup project
-git clone <this.repo><br>
+git clone https://github.com/adamklepacz/trello__top.git<br>
 npm install
 
 ## Run project
