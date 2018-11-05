@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Board from 'react-trello';
 import CustomCard from './components/CustomCard';
 import NewCustomCard from './components/NewCustomCard';
-import './App.css';
 
 class App extends Component {
   constructor(props) {

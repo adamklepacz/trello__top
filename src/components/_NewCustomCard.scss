@@ -1,0 +1,53 @@
+.custom-card {
+  background-color: $white;
+  border-radius: 6px;
+  padding: 5px;
+  max-width: 250px;
+
+  &__form-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+
+  &__input {
+    border-radius: 3px;
+    margin-right: 5px;
+    border: 1px solid $gray;
+  }
+
+  &__date {
+    border-radius: 3px;
+    border: 1px solid $gray;
+  }
+
+  &__textarea {
+    width: 100%;
+    border-radius: 3px;
+    margin-right: 5px;
+    border: 1px solid $gray;
+    margin: 0 0 8px 0;
+    resize: vertical;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__submit {
+    background-color: $green;
+    border: 0;
+    border-radius: 6px;
+    padding: 5px 20px;
+    color: $white;
+  }
+
+  &__cancel {
+    background-color: $red;
+    border: 0;
+    border-radius: 6px;
+    padding: 5px 20px;
+    color: $white;
+  }
+}

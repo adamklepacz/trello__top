@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+// Import all componenets styles
+@import './global/colors';
+@import './App';
+@import './components/CustomCard';
+@import './components/NewCustomCard';
+@import './common/lanes';

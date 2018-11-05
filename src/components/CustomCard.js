@@ -35,7 +35,7 @@ class CustomCard extends Component {
     const { isTaskOverdue, isThreeDaysToDue } = this.state;
     const { name, dueOn, body } = this.props;
     return (
-      <div className={(isTaskOverdue ? 'red-card ' : '') + (isThreeDaysToDue ? 'yellow-card' : '')}>
+      <div className={"task " + (isTaskOverdue ? 'red-card ' : '') + (isThreeDaysToDue ? 'yellow-card' : '')}>
         <header className="task__header">
           <div className="task__name">{name}</div>
             <div className="task__due">{dueOn}</div>

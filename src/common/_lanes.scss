@@ -1,0 +1,22 @@
+.lane-form {
+  background: $green2;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    width: 200px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+  }
+
+  &__submit {
+    width: 110px;
+    background: $green;
+    color: $white;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 6px;
+  }
+}
